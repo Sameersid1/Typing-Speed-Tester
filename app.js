@@ -1,8 +1,5 @@
 let quote=document.getElementById("quote");
 let type=document.getElementById("type");
-let complete=document.getElementById("complete");
-let time=document.getElementById("time");
-let speed=document.getElementById("speed");
 let result=document.getElementById("result");
 let startBtn=document.getElementById("startBtn");
 
