@@ -2,7 +2,7 @@ let quote=document.getElementById("quote");
 let type=document.getElementById("type");
 let result=document.getElementById("result");
 let startBtn=document.getElementById("startBtn");
-
+type.disabled=true;
 const quotes=[
     "Practice makes perfect.",
     "Typing fast requires focus and accuracy.",
@@ -35,6 +35,6 @@ type.addEventListener("input",function(){
         ⏱️ Time: ${timeTaken.toFixed(2)} seconds<br>
         💨 Speed: ${wpm} WPM
         `;
-        input.disabled=true;
+        type.disabled=true;
     }
 })
